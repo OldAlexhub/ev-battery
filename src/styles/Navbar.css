@@ -1,0 +1,38 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #124aa0;
+}
+
+.li {
+  float: left;
+  font-size: 24px;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover {
+  background-color: #111;
+}
+
+/* Styles for screens smaller than 600px (typical phones) */
+@media (max-width: 600px) {
+  .li {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Styles for screens between 600px and 900px (typical tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .li {
+    font-size: 20px; /* Adjust font size for tablets */
+  }
+}

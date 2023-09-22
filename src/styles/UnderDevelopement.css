@@ -1,0 +1,15 @@
+.underdevelopment {
+  text-align: center;
+  margin-top: 20vh;
+  font-family: Arial, sans-serif;
+}
+
+.underdevelopment h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.underdevelopment p {
+  font-size: 1.2em;
+  color: #666;
+}
